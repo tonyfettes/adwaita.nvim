@@ -249,8 +249,8 @@ M.set = function()
     -- A custome thing to make cmp doc border invisible
     hl('CmpNDocBorder', { fg = colors.light_5, bg = colors.light_2 })
 
-    hl('GitSignsAddLn', { fg = colors.green_6, bg = colors.green_6 })
-    hl('GitSignsChangeLn', { fg = colors.orange_1, bg = colors.orange_1 })
+    hl('GitSignsAddLn', { bg = colors.green_1 })
+    hl('GitSignsChangeLn', { bg = colors.orange_1 })
     hl("GitSignsCurrentLineBlame", { fg = colors.dark_2 })
 end
 
